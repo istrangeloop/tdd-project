@@ -1,0 +1,4 @@
+Diferenças:
+ 1 - Testes de unidades são pensados de maneira a validar casos extremos de uso da função. Caso ela receba inputs mal formulados, como ela responderia? Testes funcionais por outro lado verificam apenas a presença das funcionalidades desejadas no fluxo de execução padrão.
+ 2 - as métricas de qualidade dos testes são diferentes. Mutação por exemplo, não é métrica para testes de funcionalidade
+ 3 - testes de funcionalidades precisam de ferramentas diferentes de testes de unidades. Enquanto um precisa de stubs e fakes, outro precisa de simuladores de webservices como o selenium.
